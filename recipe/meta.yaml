@@ -1,6 +1,6 @@
 {% set name = "scikit-allel" %}
-{% set version = "0.21.2" %}
-{% set sha256 = "589ca19ca5bc083fe3a9318e5e2d9d415f9694fbea8293e901e756aecbaef9b6" %}
+{% set version = "1.0.0" %}
+{% set sha256 = "04c0394d47fb043b498bb35e4e0afab56293e0ea53c6030ed3026516cce14167" %}
 
 package:
   name: {{ name|lower }}
@@ -33,7 +33,6 @@ requirements:
     - zarr
     - matplotlib
     - seaborn
-    - petl
     - pandas
 
 test:
