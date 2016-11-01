@@ -1,6 +1,6 @@
 {% set name = "scikit-allel" %}
-{% set version = "1.0.0" %}
-{% set sha256 = "04c0394d47fb043b498bb35e4e0afab56293e0ea53c6030ed3026516cce14167" %}
+{% set version = "1.0.1" %}
+{% set sha256 = "9a8b283b4741db0ecbca6fc3b36e53e13371aef1c028567bf729c2dc0def70f0" %}
 
 package:
   name: {{ name|lower }}
@@ -40,6 +40,8 @@ test:
     - nose
   imports:
     - allel
+    - allel.opt.model
+    - allel.opt.stats
   commands:
     - nosetests -v allel
 
