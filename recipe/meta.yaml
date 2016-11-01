@@ -1,6 +1,6 @@
 {% set name = "scikit-allel" %}
-{% set version = "1.0.0" %}
-{% set sha256 = "04c0394d47fb043b498bb35e4e0afab56293e0ea53c6030ed3026516cce14167" %}
+{% set version = "1.0.3" %}
+{% set sha256 = "f1cb5318c757782e54e19b9d79ed7286b286edfd5cf019a4d53001d29f5d7bc6" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -27,7 +27,7 @@ requirements:
     - scipy
     - scikit-learn
     - numexpr
-    - dask
+    - dask >=0.11.1
     - h5py
     - bcolz
     - zarr
@@ -40,8 +40,10 @@ test:
     - nose
   imports:
     - allel
+    - allel.opt.model
+    - allel.opt.stats
   commands:
-    - nosetests -v allel
+    - nosetests -v allel --exclude=gff3
 
 about:
   home: http://github.com/cggh/scikit-allel
