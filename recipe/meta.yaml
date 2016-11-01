@@ -43,7 +43,7 @@ test:
     - allel.opt.model
     - allel.opt.stats
   commands:
-    - nosetests -v allel
+    - nosetests -v allel --exclude=gff3
 
 about:
   home: http://github.com/cggh/scikit-allel
