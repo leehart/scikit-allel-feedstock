@@ -1,6 +1,6 @@
 {% set name = "scikit-allel" %}
-{% set version = "1.0.1" %}
-{% set sha256 = "9a8b283b4741db0ecbca6fc3b36e53e13371aef1c028567bf729c2dc0def70f0" %}
+{% set version = "1.0.2" %}
+{% set sha256 = "602d6345a3df180785ffc7515f6e47474caffa8c7db7b4b65222ea923dfbd343" %}
 
 package:
   name: {{ name|lower }}
