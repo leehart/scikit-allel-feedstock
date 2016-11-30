@@ -11,6 +11,18 @@ Summary: A Python package for exploring and analysing genetic variation data.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/scikit-allel-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/scikit-allel-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/scikit-allel-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/scikit-allel-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/scikit-allel-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/scikit-allel-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/scikit-allel/badges/version.svg)](https://anaconda.org/conda-forge/scikit-allel)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/scikit-allel/badges/downloads.svg)](https://anaconda.org/conda-forge/scikit-allel)
+
 Installing scikit-allel
 =======================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `scikit-allel` available on your p
 ```
 conda search scikit-allel --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/scikit-allel-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/scikit-allel-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/scikit-allel-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/scikit-allel-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/scikit-allel-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/scikit-allel-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/scikit-allel/badges/version.svg)](https://anaconda.org/conda-forge/scikit-allel)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/scikit-allel/badges/downloads.svg)](https://anaconda.org/conda-forge/scikit-allel)
 
 
 Updating scikit-allel-feedstock
