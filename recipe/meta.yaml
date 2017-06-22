@@ -47,7 +47,7 @@ test:
     - allel.opt.stats
     - allel.opt.io_vcf_read
   commands:
-    - nosetests -v allel --exclude=from_gff3_region
+    - python -m nose allel -v --exclude=from_gff3_region
 
 about:
   home: http://github.com/cggh/scikit-allel
