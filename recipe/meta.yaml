@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 2
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -39,13 +39,14 @@ requirements:
 test:
   requires:
     - nose
-  source_files:
-    - allel/test/data
   imports:
     - allel
     - allel.opt.model
     - allel.opt.stats
     - allel.opt.io_vcf_read
+    - allel.test
+    - allel.test.model
+    - allel.test.test_io_vcf_read
   commands:
     - python -m nose allel -v --exclude=from_gff3_region
 
