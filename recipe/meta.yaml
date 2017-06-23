@@ -40,7 +40,7 @@ test:
   requires:
     - nose
   source_files:
-    - allel/test/data
+    - allel
   imports:
     - allel
     - allel.opt.model
