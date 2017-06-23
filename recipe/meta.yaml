@@ -39,15 +39,16 @@ requirements:
 test:
   requires:
     - nose
-  source_files:
-    - allel
   imports:
     - allel
     - allel.opt.model
     - allel.opt.stats
     - allel.opt.io_vcf_read
+    - allel.test
+    - allel.test.model
+    - allel.test.test_io_vcf_read
   commands:
-    - python -m nose -v --exclude=from_gff3_region
+    - python -m nose allel -v --exclude=from_gff3_region
 
 about:
   home: http://github.com/cggh/scikit-allel
