@@ -1,6 +1,6 @@
 {% set name = "scikit-allel" %}
-{% set version = "1.1.6" %}
-{% set sha256 = "855eeb9a26b4f7e71487542d03efd0fda372aea112eb2d2d3a51a1e3cfa89d86" %}
+{% set version = "1.1.8" %}
+{% set sha256 = "974e2fc354ddf838c8c9b8d945cf62a3c9f325c5b384cd4dea841275651b060c" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -27,7 +27,7 @@ requirements:
     - scipy
     - scikit-learn
     - numexpr
-    - dask
+    - dask >=0.15
     - h5py
     - bcolz
     - zarr
