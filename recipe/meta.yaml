@@ -27,7 +27,7 @@ requirements:
     - scipy
     - scikit-learn
     - numexpr
-    - dask>=0.15
+    - dask >=0.15
     - h5py
     - bcolz
     - zarr
