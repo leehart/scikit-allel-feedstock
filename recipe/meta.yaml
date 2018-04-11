@@ -1,6 +1,6 @@
 {% set name = "scikit-allel" %}
-{% set version = "1.1.9" %}
-{% set sha256 = "11d27a4911a0da4958ff50cbbef98b97061f0a575b838d61e020861c86ffc9f8" %}
+{% set version = "1.1.10" %}
+{% set sha256 = "9a862c4b0ec6001234b9bbf0a1f1a4ac2ed3f39bf4f6557ddb4baf0e53616740" %}
 
 package:
   name: {{ name|lower }}
@@ -30,7 +30,7 @@ requirements:
     - dask >=0.15
     - h5py
     - bcolz
-    - zarr >= 2.2
+    - zarr >=2.2
     - numcodecs
     - matplotlib
     - seaborn
