@@ -30,7 +30,7 @@ requirements:
     - dask >=0.15
     - h5py
     - bcolz
-    - zarr
+    - zarr >= 2.2
     - numcodecs
     - matplotlib
     - seaborn
