@@ -14,14 +14,16 @@ Summary: A Python package for exploring and analysing genetic variation data.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/scikit-allel-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/scikit-allel-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/scikit-allel-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/scikit-allel-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/scikit-allel-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/scikit-allel-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/scikit-allel-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/scikit-allel-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/scikit-allel-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/scikit-allel-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/scikit-allel-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/scikit-allel-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/scikit-allel/badges/version.svg)](https://anaconda.org/conda-forge/scikit-allel)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/scikit-allel/badges/downloads.svg)](https://anaconda.org/conda-forge/scikit-allel)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-scikit--allel-green.svg)](https://anaconda.org/conda-forge/scikit-allel) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/scikit-allel.svg)](https://anaconda.org/conda-forge/scikit-allel) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/scikit-allel.svg)](https://anaconda.org/conda-forge/scikit-allel) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/scikit-allel.svg)](https://anaconda.org/conda-forge/scikit-allel) |
 
 Installing scikit-allel
 =======================
