@@ -51,7 +51,7 @@ test:
     - allel.opt.stats
     - allel.opt.io_vcf_read
   commands:
-    - pytest -v allel
+    - pytest -v --pyargs allel
 
 about:
   home: http://github.com/cggh/scikit-allel
