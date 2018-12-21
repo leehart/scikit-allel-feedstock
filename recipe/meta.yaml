@@ -50,9 +50,6 @@ test:
     - allel.opt.model
     - allel.opt.stats
     - allel.opt.io_vcf_read
-    - allel.test
-    - allel.test.model
-    - allel.test.test_io_vcf_read
   commands:
     - pytest -v allel
 
