@@ -51,9 +51,8 @@ test:
     - allel.opt.stats
     - allel.opt.io_vcf_read
   commands:
-    # N.B., deselect tests that require tabix to be installed
-    - pytest -v --pyargs allel --deselect=allel/test/io/test_gff_read.py::test_gff3_to_dataframe_region --deselect=allel/test/model/ndarray/test_tables.py::FeatureTableTests::test_from_gff3_region
-
+    # manually deselect tests that require tabix to be installed
+    - pytest -v --pyargs allel -k 'not test_gff3_to_dataframe_region and not test_from_gff3_region'
 about:
   home: http://github.com/cggh/scikit-allel
   license: MIT
