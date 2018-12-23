@@ -51,7 +51,7 @@ test:
     - allel.opt.stats
     - allel.opt.io_vcf_read
   commands:
-    # manually deselect tests that require tabix to be installed
+    # minimal tests for now, until we have a work sround for tests needing tabix
     - pytest -v --pyargs allel.test.test_api
 about:
   home: http://github.com/cggh/scikit-allel
